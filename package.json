@@ -1,0 +1,24 @@
+{
+  "name": "cypress-coba",
+  "version": "1.0.0",
+  "description": "cypress project for beginner",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "Cypress open"
+  },
+  "keywords": [
+    "e2e",
+    "tests",
+    "cypress",
+    "automation",
+    "frameworks"
+  ],
+  "author": "Hendy",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.9.0",
+    "mocha": "^10.2.0",
+    "mochawesome-merge": "^4.3.0"
+  }
+}

@@ -1,0 +1,22 @@
+[
+  { "name": "Ponimin",
+    "phone": "12345",
+    "email": "ponimin@test.com",
+    "password": "test123",
+    "address": "Jalan 1"
+  },
+
+  { "name": "Ponijan",
+    "phone": "67890", 
+    "email": "ponijan@test.com", 
+    "password": "test456", 
+    "address": "Jalan 2"
+  },
+
+  { "name": "Ponisri", 
+    "phone": "12398", 
+    "email": "ponisri@test.com", 
+    "password": "test789", 
+    "address": "Jalan 3"
+  }
+]
