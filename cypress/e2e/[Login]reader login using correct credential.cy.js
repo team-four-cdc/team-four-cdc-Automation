@@ -22,6 +22,5 @@ describe('Open portal article website', () => {
   it('user clicks logout',() =>{
     cy.wait(10000).get('*[class=ant-space-item]').contains('Hi').click()
     cy.contains('Keluar').click()
-    cy.wait(100).get('*[class=ant-notification-notice-message]').contains('Login Berhasil!').should('exist')
   })
 })

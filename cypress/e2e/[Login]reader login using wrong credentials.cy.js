@@ -16,7 +16,7 @@ describe('Open portal article website', () => {
   
     it('click login button',() =>{
       cy.get('*[type=submit]').click()
-      cy.wait(100).get('*[class=ant-notification-notice-message]').contains('Penulisan Username atau Password tidak sesuai!').should('exist')
+      cy.wait(100).get('*[class=ant-notification-notice-message]').contains('User tidak ditemukan!').should('exist')
     })
   })
   

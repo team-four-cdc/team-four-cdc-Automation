@@ -9,8 +9,7 @@ describe('Open portal article website', () => {
     })
 
     it('user fills email and password',() =>{
-      cy.get('*[id=email]').should('be.visible')
-      cy.get('*[id=email]').type('pembacatest@test.com')
+      cy.wait(10000).get('*[id=email]').type('pembacatest@test.com')
       cy.get('*[id=password]').type('nggaktau')
     })
 
